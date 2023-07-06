@@ -1,7 +1,7 @@
 import {DefaultDocumentNodeResolver} from 'sanity/desk'
 import Iframe from 'sanity-plugin-iframe-pane'
 import {SanityDocument} from 'sanity'
-const baseURL ='http://localhost:4000'
+const baseURL = process.env.SANITY_STUDIO_BASE_URL
 // Customise this function to show the correct URL based on the current document
 function getPreviewUrl(doc: SanityDocument) {
   return doc?.slug?.current
