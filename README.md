@@ -1,11 +1,13 @@
 # Sanity Blogging Content Studio
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+- This project is to explore the use of Sanity
+- In order to demo to the client the good things of having a better control of Content without Developers involment
 
-Now you can do the following things:
+- Simple to get it running
+- `npm run dev`
+- Open http://localhost:3333/
+- Login with the granted permissions email
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- Check out the example frontend: [React/Next.js](https://github.com/sanity-io/tutorial-sanity-blog-react-next)
-- [Read the blog post about this template](https://www.sanity.io/blog/build-your-own-blog-with-sanity-and-next-js?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+- You should now see the following structure.
+- 
+![Screenshot 2023-11-10 at 4 00 32 PM](https://github.com/marcosriganti/sanity/assets/852055/f486de69-cf7a-40e1-b819-6d898abf2219)
